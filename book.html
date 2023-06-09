@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="script" href="book.js">
+</head>
+<body>
+    <div class="main">
+        <h2 class="page_title">Book's Page</h2>
+        <div class="enter_item">
+            <label for="book">Enter the book's name: </label>&nbsp;
+            <input type="text" name="book" id="book">
+        </div>
+        <div class="book_table1">
+        <table>
+                <ul>
+<!--                    <li>Book Title</li>-->
+                </ul>
+            <br>
+<!--                <tr>-->
+<!--                    <td>Book Title</td>-->
+<!--                </tr>-->
+            </table>
+        </div>
+        <div class="book_table">
+<!--            <table>-->
+<!--                <tr>-->
+<!--                    <td>Book Title</td>-->
+<!--                </tr>-->
+<!--            </table>-->
+            <table>
+                <tr>
+                    <td>Author</td>
+                    <td>Title</td>
+                    <td>Number of pages</td>
+                    <td>Read/Not read</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="new_book">
+            <button type="button">NEW BOOK</button>
+        </div>
+
+        <form class="form hidden" id="form_id">
+            <div class="form_item">
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="Author"><br>
+            </div>
+            <div class="form_item">
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="Title"><br>
+            </div>
+            <div class="form_item">
+                <label for="pages">Number of pages:</label><br>
+                <input type="text" id="pages" name="pages"><br>
+            </div>
+            <div class="form_item">
+                <label for="read">Read/Not read:</label><br>
+                <input type="text" id="read" name="read"><br>
+            </div>
+        </form>
+        <div class="new_book">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </div>
+
+    <script src="book.js"></script>
+</body>
+</html>

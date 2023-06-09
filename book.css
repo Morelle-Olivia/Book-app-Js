@@ -1,0 +1,49 @@
+.main {
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.page_title {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.enter_item {
+    padding-bottom: 3%;
+    padding-left: -20%;
+    display: flex;
+    justify-content: left;
+}
+.book_table1 {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.book_table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.new_book {
+    padding-top: 2%;
+}
+.form {
+    padding-top: 3%;
+    width: 100%;
+    /*display: flex;*/
+    /*gap: 20%;*/
+    justify-content: center;
+}
+.form_item {
+    padding: 1% 0%;
+}
+
+.hidden {
+    display: none;
+}
